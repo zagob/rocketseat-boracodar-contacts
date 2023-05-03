@@ -7,7 +7,7 @@ import {
   activeEditContact,
   searchContactData,
 } from "@/store/reducers/reducerStateContacts";
-import { RootState } from "@/store";
+import { RootState } from "../store";
 
 export function Header() {
   const dispatch = useDispatch();
